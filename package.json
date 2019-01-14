@@ -1,9 +1,6 @@
 {
-  "name": "vue-admin-template",
+  "name": "dashboard",
   "version": "3.8.0",
-  "license": "MIT",
-  "description": "A vue admin template with Element UI & axios & iconfont & permission control & lint",
-  "author": "Pan <panfree23@gmail.com>",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
@@ -15,12 +12,25 @@
   },
   "dependencies": {
     "axios": "0.18.0",
+    "bootstrap": "^4.2.1",
+    "bootstrap-vue": "^2.0.0-rc.11",
+    "bulma": "^0.7.2",
     "element-ui": "2.4.6",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1",
     "js-cookie": "2.2.0",
+    "moment": "^2.23.0",
     "normalize.css": "7.0.0",
     "nprogress": "0.2.0",
+    "popper.js": "^1.14.6",
+    "sweetalert2": "^7.33.1",
     "vue": "2.5.17",
+    "vue-events": "^3.1.0",
+    "vue-resource": "^1.5.1",
     "vue-router": "3.0.1",
+    "vue-tables-2": "^1.4.70",
+    "vuetable": "^1.5.12",
+    "vuetable-2": "^2.0.0-beta.4",
     "vuex": "3.0.1"
   },
   "devDependencies": {
